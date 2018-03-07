@@ -1,7 +1,7 @@
 {
     "name": "camo",
     "version": "0.12.3",
-    "description": "A class-based ES6 ODM for Mongo-like databases.",
+    "description": "A class-based ES6 ODM for NEDB.",
     "author": {
         "name": "Scott Robinson",
         "email": "s.w.robinson@gmail.com",
@@ -10,7 +10,6 @@
     "keywords": [
         "es6",
         "odm",
-        "mongodb",
         "nedb",
         "nosql",
         "document",
@@ -39,7 +38,6 @@
         "lodash": "3.9.3"
     },
     "optionalDependencies": {
-        "mongodb": "2.2.19",
         "nedb": "1.8.0"
     },
     "devDependencies": {

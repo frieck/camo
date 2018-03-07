@@ -3,5 +3,3 @@ sudo: false
 node_js:
   - "stable"
   - "4.0"
-services:
-  - mongodb
