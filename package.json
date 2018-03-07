@@ -1,49 +1,49 @@
 {
-  "name": "camo",
-  "version": "0.12.3",
-  "description": "A class-based ES6 ODM for Mongo-like databases.",
-  "author": {
-    "name": "Scott Robinson",
-    "email": "s.w.robinson@gmail.com",
-    "url": "http://stackabuse.com"
-  },
-  "keywords": [
-    "es6",
-    "odm",
-    "mongodb",
-    "nedb",
-    "nosql",
-    "document",
-    "model",
-    "schema",
-    "database",
-    "data",
-    "datastore",
-    "query",
-    "db"
-  ],
-  "homepage": "https://github.com/scottwrobinson/camo",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:scottwrobinson/camo.git"
-  },
-  "license": "MIT",
-  "scripts": {
-    "test": "mocha"
-  },
-  "engines": {
-    "node": ">=2.0.0"
-  },
-  "dependencies": {
-    "depd": "1.1.0",
-    "lodash": "3.9.3"
-  },
-  "optionalDependencies": {
-    "mongodb": "2.0.42",
-    "nedb": "1.8.0"
-  },
-  "devDependencies": {
-    "chai": "3.0.0",
-    "mocha": "2.2.5"
-  }
+    "name": "camo",
+    "version": "0.12.3",
+    "description": "A class-based ES6 ODM for Mongo-like databases.",
+    "author": {
+        "name": "Scott Robinson",
+        "email": "s.w.robinson@gmail.com",
+        "url": "http://stackabuse.com"
+    },
+    "keywords": [
+        "es6",
+        "odm",
+        "mongodb",
+        "nedb",
+        "nosql",
+        "document",
+        "model",
+        "schema",
+        "database",
+        "data",
+        "datastore",
+        "query",
+        "db"
+    ],
+    "homepage": "https://github.com/scottwrobinson/camo",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:scottwrobinson/camo.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha"
+    },
+    "engines": {
+        "node": ">=2.0.0"
+    },
+    "dependencies": {
+        "depd": "1.1.0",
+        "lodash": "3.9.3"
+    },
+    "optionalDependencies": {
+        "mongodb": "2.2.19",
+        "nedb": "1.8.0"
+    },
+    "devDependencies": {
+        "chai": "3.0.0",
+        "mocha": "2.2.5"
+    }
 }
